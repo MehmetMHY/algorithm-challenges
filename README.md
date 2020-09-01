@@ -21,7 +21,7 @@
     - Python3
     - numpy
 - <ins>Traveling Salesman Problem:</ins>
-  - Implementations of the Nearest Neighbor and Optimal_TSP algorithms for the traveling salesman problem.
+  - Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.
   - Requirements:
     - Python3
 - <ins>Website Challenges/Problems:</ins>
