@@ -4,7 +4,7 @@
 
 ### About:
 - This is a collection of algorithms I have done for school assignments, online coding challenges/problems, and personal projects.
-- To see and/or use most of these algorithms, we will need Jupyter Notebook.
+- To see and/or use most of these algorithms, you we will need Jupyter Notebook.
 
 ## Table of Context:
 - <ins>L System:</ins>

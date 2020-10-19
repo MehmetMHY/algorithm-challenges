@@ -1,6 +1,6 @@
 # Title:    Basic L-System Generater With Python & Turtle
 # By:       Mehmet Yilmaz
-# Date:     7-5-2020 
+# Date:     7-5-2020
 
 # *Sources:
 # 1) https://en.wikipedia.org/wiki/L-system
@@ -13,23 +13,23 @@ import turtle
 import re
 
 ######################################
-title = "Fractal Plant"
+title = "Dragon Cruve"
 ######################################
-variables = ["X", "F"]
+variables = ["X", "Y"]
 ######################################
 moveForward = ["F"]
 turnLeft = ["-"]
 turnRight = ["+"]
 ######################################
-start = ["X"]
-rules = ["F+[[X]-X]-F[-FX]+X", "FF"]
-angle = 25
-n = 7
+start = ["FX"]
+rules = ["X+YF+", "-FX-Y"]
+angle = 90
+n = 10
 ######################################
-dis = 3
+dis = 7
 spd = 100000
 seeDrawing = False
-saveImage = False
+saveImage = True
 hideArrow = True
 startAngle = 90 # only turning left
 ######################################
@@ -46,6 +46,13 @@ def makeList(s):
         ans.append(str(s[i]))
     return ans
 
+def getState(turtle):
+    return turtle.heading(), turtle.position()
+
+def restoreState(turtle, state):
+    turtle.setheading(state[0])
+    turtle.setposition(state[1][0], state[1][1])
+
 for i in range(n):
     for p in range(len(variables)):
         v = variables[p]
@@ -61,13 +68,6 @@ if(hideArrow):
 if(seeDrawing == False):
     speed(spd)
     turtle.tracer(0, 0)
-
-def getState(turtle):
-    return turtle.heading(), turtle.position()
-
-def restoreState(turtle, state):
-    turtle.setheading(state[0])
-    turtle.setposition(state[1][0], state[1][1])
 
 savedState = []
 stack = []
