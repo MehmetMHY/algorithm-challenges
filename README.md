@@ -7,6 +7,13 @@
 - To see and/or use most of these algorithms, you we will need Jupyter Notebook.
 
 ## Table of Context:
+- <ins>Jumping Jims Encore:</ins>
+  - About: Its an interesting graph problem. To see all the details, please view: Jumping-Jims-Encore-Problem/README.md
+  - Requirements:
+    - Python3
+    - matplotlib
+    - networkx
+
 - <ins>L System:</ins>
   - About: A simple L-System generator. To learn more about L-Systems, you can refer to this source: https://en.wikipedia.org/wiki/L-system
   - Requirements:
@@ -15,17 +22,19 @@
     - tkinter
   
 - <ins>Linear Partition 2 (LP2):</ins>
-  - Both a recursive and dynamic programming solution to the following problem statement:  
+  - About: Both a recursive and dynamic programming solution to the following problem statement:  
     * Given a sequence S of n positive integers (s1, s2, …, sn) and an integer k, partition S into k ranges so as to maximizes the minimum sum over all ranges.
   - Requirements:
     - Python3
     - numpy
 - <ins>Traveling Salesman Problem:</ins>
-  - Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.
+  - About: Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.
   - Requirements:
     - Python3
 - <ins>Website Challenges/Problems:</ins>
-  - HackerRank.ipynb:
-    - HackerRank Account: https://www.hackerrank.com/mehmet_mhy
-    - Some algorithms I implemented for certain problems on http://hackerrank.com/
+  - About: Algorithms I implemented for HackerRank challenges
+  - HackerRank Account: https://www.hackerrank.com/mehmet_mhy
+  - Requirements:
+    - Python3
+    - jupyter notebook
 
