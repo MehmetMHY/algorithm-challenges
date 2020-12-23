@@ -45,4 +45,6 @@
   - Requirements:
     - Python3
     - jupyter notebook
+    - numpy
+    - pandas
 
