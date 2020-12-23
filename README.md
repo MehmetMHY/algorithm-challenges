@@ -27,13 +27,21 @@
   - Requirements:
     - Python3
     - numpy
+
 - <ins>Traveling Salesman Problem:</ins>
   - About: Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.
   - Requirements:
     - Python3
+
 - <ins>Website Challenges/Problems:</ins>
   - About: Algorithms I implemented for HackerRank challenges
   - HackerRank Account: https://www.hackerrank.com/mehmet_mhy
+  - Requirements:
+    - Python3
+    - jupyter notebook
+
+- <ins>Dots & Boxes Analysis:</ins>
+  - About: Method/algorithms I created to try and analysis the game Dots & Boxes. Currently, only a 1x1 and 1x2 game has been analysed. Read the README.md located in ./Dots_And_Boxes/ for more information.
   - Requirements:
     - Python3
     - jupyter notebook
