@@ -52,3 +52,8 @@
   - About: A clock solitaire solver done though the termnal console. To learn the more about clock solitaire, please check out this link: [[wiki](https://en.wikipedia.org/wiki/Clock_Patience)]
   - Requirements:
     - Python3
+
+- <ins>Bogo Sort Algorithm:</ins>
+  - About: A fun implementation of Bogo Sort.
+  - Requirements:
+    - Python3
