@@ -15,7 +15,7 @@
     - networkx
 
 - <ins>L System:</ins>
-  - About: A simple L-System generator. To learn more about L-Systems, you can refer to this source: https://en.wikipedia.org/wiki/L-system
+  - About: A simple L-System generator. To learn more about L-Systems, you can refer to this source: [[wiki](https://en.wikipedia.org/wiki/L-system)]
   - Requirements:
     - Python3
     - turtle
@@ -35,7 +35,7 @@
 
 - <ins>Website Challenges/Problems:</ins>
   - About: Algorithms I implemented for HackerRank challenges
-  - HackerRank Account: https://www.hackerrank.com/mehmet_mhy
+  - HackerRank Account: [[Hackerrank Account Link](https://www.hackerrank.com/mehmet_mhy)]
   - Requirements:
     - Python3
     - jupyter notebook
@@ -48,3 +48,7 @@
     - numpy
     - pandas
 
+- <ins>Basic Clock Solitaire:</ins>
+  - About: A clock solitaire solver done though the termnal console. To learn the more about clock solitaire, please check out this link: [[wiki](https://en.wikipedia.org/wiki/Clock_Patience)]
+  - Requirements:
+    - Python3
