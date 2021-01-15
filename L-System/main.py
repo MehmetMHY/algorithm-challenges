@@ -13,6 +13,8 @@ import turtle
 import re
 
 ######################################
+############# Parameters #############
+######################################
 title = "Dragon Cruve"
 ######################################
 variables = ["X", "Y"]
@@ -24,9 +26,9 @@ turnRight = ["+"]
 start = ["FX"]
 rules = ["X+YF+", "-FX-Y"]
 angle = 90
-n = 10
+n = 16
 ######################################
-dis = 7
+dis = 3
 spd = 100000
 seeDrawing = False
 saveImage = True

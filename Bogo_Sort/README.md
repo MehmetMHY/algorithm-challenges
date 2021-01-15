@@ -3,6 +3,10 @@
 # About:
 Just a fun/meme Python3 project I did about Bogo Sort.
 
+# Previous Work:
+- I originally made this project back in 2019 as one of my earlier GitHub repos. It was one script and it was made as a joke. During this time, I was new to git and GitHub as a whole. Knowing this, one day I accidentally deleted that repo with my original implementation of BogoSort. Luckly, someone Forked this repo and I was able to Fork it back to my profile. 
+- You can see my original implementation of BogoSort from 2019 with the following link: https://github.com/MehmetMHY/bogo-sort-meme
+
 # BoGo Sort Module
 I created a basic module for bogo sort in bs.py. This Python script has two functions:
 - bogosort(list, boolean, boolean):
