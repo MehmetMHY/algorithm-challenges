@@ -15,25 +15,25 @@ import re
 ######################################
 ############# Parameters #############
 ######################################
-title = "Dragon Cruve"
+title = "Classic_Sierpinski_Curve-Paul_Bourke-&-Chris_Wallace"
 ######################################
-variables = ["X", "Y"]
+variables = ["X"]
 ######################################
 moveForward = ["F"]
 turnLeft = ["-"]
 turnRight = ["+"]
 ######################################
-start = ["FX"]
-rules = ["X+YF+", "-FX-Y"]
-angle = 90
-n = 16
+start = ["F--XF--F--XF"]
+rules = ["XF+F+XF--F--XF+F+X"]
+angle = 45
+n = 5
 ######################################
-dis = 3
+dis = 8
 spd = 100000
 seeDrawing = False
 saveImage = True
 hideArrow = True
-startAngle = 90 # only turning left
+startAngle = 45 # only turning left
 ######################################
 
 def makeString(list):
