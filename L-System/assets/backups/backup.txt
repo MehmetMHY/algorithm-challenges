@@ -1,0 +1,166 @@
+# Title:    Basic L-System Generater With Python & Turtle
+# By:       Mehmet Yilmaz
+# Date:     7-5-2020
+
+# *Sources:
+# 1) https://en.wikipedia.org/wiki/L-system
+# 2) https://stackoverflow.com/questions/16119991/how-to-speed-up-pythons-turtle-function-and-stop-it-freezing-at-the-end
+# 3) http://paulbourke.net/fractals/lsys/
+
+from tkinter import *
+from turtle import *
+import turtle
+import re
+
+# ######################################
+# ############# Parameters #############
+# ######################################
+# title = "Finiteness_of_Houdini"
+# ######################################
+# variables = ["F"]
+# ######################################
+# moveForward = ["F"]
+# turnLeft = ["-"]
+# turnRight = ["+"]
+# ######################################
+# start = ["F"]
+# rules = ["F++F"]
+# angle = 77
+# n = 5
+# ######################################
+# dis = 1000
+# spd = 100000
+# seeDrawing = False
+# saveImage = False
+# hideArrow = True
+# startAngle = 0 # only turning left
+# ######################################
+
+######################################
+############# Parameters #############
+######################################
+title = "Finiteness_of_Houdini"
+######################################
+variables = ["F"]
+######################################
+moveForward = ["F"]
+turnLeft = ["-"]
+turnRight = ["+"]
+######################################
+start = ["F-F-F-F-F-F-F-F"]
+rules = ["F---F+F+F+F+F+F+F---F"]
+angle = 45
+n = 5
+######################################
+dis = 4
+spd = 100000
+seeDrawing = False
+saveImage = False
+hideArrow = True
+startAngle = 0 # only turning left
+######################################
+
+def makeString(list):
+    ans = ""
+    for i in range(len(list)):
+        ans = ans + list[i]
+    return ans
+
+def makeList(s):
+    ans = []
+    for i in range(len(s)):
+        ans.append(str(s[i]))
+    return ans
+
+def getState(turtle):
+    return turtle.heading(), turtle.position()
+
+def restoreState(turtle, state):
+    turtle.setheading(state[0])
+    turtle.setposition(state[1][0], state[1][1])
+
+def generate_path(n, variables, start, rules):
+    for i in range(n):
+        for p in range(len(variables)):
+            v = variables[p]
+            for z in range(len(start)):
+                if(start[z] == v):
+                    start[z] = rules[p]
+        temp = makeString(start)
+        start = makeList(temp)
+    return start
+
+start = generate_path(n, variables, start, rules)
+
+if(seeDrawing == False):
+    speed(spd)
+    turtle.tracer(0, 0)
+
+savedState = []
+stack = []
+left(startAngle)
+
+poses = []
+poses.append(turtle.pos())
+
+for i in range(len(start)):
+    key = start[i]
+    if(moveForward.count(key)):
+        forward(dis)
+    elif(turnLeft.count(key)):
+        left(angle)
+    elif(turnRight.count(key)):
+        right(angle)
+    elif(key == "["):
+        savedState = getState(turtle)
+        stack.append(savedState)
+    elif(key == "]"):
+        turtle.penup()
+        restoreState(turtle, stack[-1])
+        stack.pop()
+        turtle.pendown()
+    
+    poses.append(turtle.pos())
+
+
+avg = [sum(x)/len(x) for x in zip(*poses)]
+avg[0] = int(avg[0]) * -1
+avg[1] = int(avg[1]) * -1
+
+turtle.reset()
+
+turtle.penup()
+turtle.goto(avg[0], avg[1])
+turtle.pendown()
+
+if(hideArrow):
+    hideturtle()
+
+for i in range(len(start)):
+    key = start[i]
+    if(moveForward.count(key)):
+        forward(dis)
+    elif(turnLeft.count(key)):
+        left(angle)
+    elif(turnRight.count(key)):
+        right(angle)
+    elif(key == "["):
+        savedState = getState(turtle)
+        stack.append(savedState)
+    elif(key == "]"):
+        turtle.penup()
+        restoreState(turtle, stack[-1])
+        stack.pop()
+        turtle.pendown()
+
+if(saveImage):
+    title = re.sub("\s+", "_", title.strip()) + ".eps"
+    ts = turtle.getscreen()
+    ts.getcanvas().postscript(file=str(title))
+
+if(seeDrawing == False):
+    turtle.update()
+
+done()
+
+
