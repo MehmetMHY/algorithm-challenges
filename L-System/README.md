@@ -1,7 +1,7 @@
 # Simple 2D L-System Python Implmentation
 
 ## About:
-- I always wanted to implment an L-System, so I did it.
+- I always wanted to implment an L-System, so I did.
 - To learn more about L-Systems, please check out the wikipedia link in the sources section.
 - This project consists of the following files:
 	- draw.py : class with function which does all the L-System drawing using turtle.
@@ -24,6 +24,7 @@ python3 main.py -nw
 ```
 python3 eps_to_png.py example.eps example.png
 ```
+- The eps_to_png.py script is located in assets/ and works most of the time, but fails sometimes. So I did not want to include it in the final code.
 - This code is not perfect and is limited to 2D only. So in the feature I would like to implment this code for 3D L-Systems. I might need to use either Pygame or Unity, I will most liky use Unity for a 3D implmentation of this.
 
 ## Great Sources:

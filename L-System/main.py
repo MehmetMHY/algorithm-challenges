@@ -6,6 +6,7 @@ import os.path
 import pfuncs as pf
 from tkinter import messagebox
 import sys
+from tkinter import *
 
 # return True if inputted string is "true" or default to a return of False
 def string_to_bool(input):
@@ -63,6 +64,7 @@ def save_inputs():
         title, variables, moveForward, turnLeft, turnRight, start, rules, angle, n, dis, saveImage = clean_inputs(values)
         values = [title, variables, moveForward, turnLeft, turnRight, start, rules, angle, n, dis, saveImage]
         pf.pickle_save(str(values[0])+".pickle", values)
+        messagebox.showinfo("Successfully Saved", "Saved The Following Config: \n" + str(values))
     else:
         messagebox.showerror("INVALID INPUT", "The following input is invalid: \n" + str(values))
 
@@ -84,6 +86,8 @@ def list_saved_pickles(path="."):
     message = "PATHS: \n"
     for p in tmp:
         message = message + "\n" + str(p)
+
+    print("\n" + message + "\n")
     messagebox.showinfo("Saved Pickle Files PATHs", message)
 
 # print all the options for running the main script
@@ -96,12 +100,22 @@ def command_options():
 
     """)
 
+def move_to_saves():
+    tmp = pf.move_to_saves()
+
+    if(tmp):
+        messagebox.showinfo("Moved Any Remaining .pickle File(s)", "Any L-System configs saves, .pickle, files has been moved to saves/")
+    else:
+        messagebox.showinfo("FAILED To Move Any Remaining .pickle Files(s)", "Sorry for the error, please correct it if possible!")
+
 #######################################################
 #################[ Main TK GUI Setup ]#################
 #######################################################
 
 root = tk.Tk()
 root.title("L-System Generator")
+
+command_options()
 
 # print gui advice/warning message, toggle on/off by changing the boolean below
 if "-nw" not in list(sys.argv):
@@ -163,5 +177,7 @@ e12.grid(row=13, column=1)
 tk.Button(root, text='LOAD', command=load_save).grid(row=14, column=1, sticky=tk.W, pady=4)
 
 tk.Button(root, text='PATHS', command=list_saved_pickles).grid(row=14, column=0, sticky=tk.W, pady=4)
+
+tk.Button(root, text='CLEAN', command=move_to_saves).grid(row=15, column=0, sticky=tk.W, pady=4)
 
 tk.mainloop()

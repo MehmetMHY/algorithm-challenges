@@ -2,14 +2,10 @@ import pickle
 import subprocess
 import re
 import os
+import os.path
 
 # save basic python variables/data to a pickle file (.p)
 def pickle_save(filename, data):
-    if filename[-2:] == ".p":
-        filename = filename
-    else:
-        filename = str(filename + ".p")
-
     with open(filename, 'wb') as fp:
         pickle.dump(data, fp, protocol=pickle.HIGHEST_PROTOCOL)
     
@@ -55,5 +51,24 @@ def find_all_pickle_files(path):
         pickle_files[i] = pickle_files[i].replace(pwd_path, "./")
 
     return pickle_files
+
+def move_to_saves():
+    ideal_directory = "L-System"
+
+    ideal_directory.replace("/", "")
+
+    current_pwd = get_current_pwd()
+
+    aoi = current_pwd[-1*int(len(ideal_directory)+1):]
+
+    aoi = aoi.replace("/", "")
+
+    if(aoi == ideal_directory and os.path.isdir(current_pwd + "saves")):
+        os.system("mv *.pickle ./saves")
+        print("Moved Every .pickle File In Project To saves/")
+        return True
+    else:
+        print("Failed To Move .pickle Files To saves/")
+        return False
 
 
