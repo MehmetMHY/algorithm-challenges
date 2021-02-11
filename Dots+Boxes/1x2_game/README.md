@@ -4,7 +4,7 @@
 - This is the work I did towards analyzing a 1x2 dots & boxes game.
 
 ## Credits:
-- I would like to give credit to dylan-eck (https://github.com/dylan-eck), for providing me with the pseudocode needed to create the recursive function which generates every possible list combination. I did modify this pseudocode to work for a 1x2 dots & boxes game.
+- I would like to give credit to dylan-eck (https://github.com/dylan-eck), for providing me with the pseudocode needed to create the recursive function which generates every possible list combination given a list of char(s). The pseudocode was ultimately modifited to work for a 1x2 dots & boxes game.
 
 ## Process:
 - In this analyzies, the following process(s) are done:
@@ -27,5 +27,3 @@
 		1) If Player 2 can conquer any square, they should do it no matter what for a 1x2 game.
 		2) Player 2 has a high chance of winning a dot-to- dots game just by playing second.
 		3) Player 2 should make their first move on dot-to-dot 3 as it reduces any chance of Player 1 winning.
-
-

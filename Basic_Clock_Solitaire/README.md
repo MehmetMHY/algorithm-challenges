@@ -1,7 +1,7 @@
 # Basic-Colck-Solitaire
 
 ## About:
-A clock solitaire solver done though the terminal console.
+- A clock solitaire solver done though the terminal console.
 
 ## How To Run:
 

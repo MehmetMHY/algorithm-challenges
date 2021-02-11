@@ -14,13 +14,17 @@
 
 ## Requirements:
 - Python 3
-- NetworkX
+- NetworkX (module)
 
 ## How To Run:
-1) Determine which data file to use. By default its set to use "input.txt". I also included a "test.txt" data file for simple testing. The "input.txt" data file contains the data displayed in the problem description (PDF). If you want to change which data file is used, just change the data file name in line 61 of the main.py script. 
+1) Determine which data file to use. By default its set to use "input.txt". I also included a "test.txt" data file for simple testing. The "input.txt" data file contains the data displayed in the problem description (PDF). If you want to change which data file is used, just change the data file name in around line 61 of the main.py script. 
 2) You should have python3 installed by default, if not install it.
-3) Make sure to have/install Networkx: https://pypi.org/project/networkx/
-4) When all is set and done, run the main script: python3 main.py
+3) Make sure to have/install the Networkx module: https://pypi.org/project/networkx/
+4) When all is set and done, run the main script: 
+
+```
+python3 main.py
+```
 
 ## Sources:
 1) NetworkX Docs: https://networkx.github.io/documentation/networkx-2.4/z
