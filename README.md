@@ -1,6 +1,6 @@
 # Algorithm Challenges - Mehmet Yilmaz
 
-<img width="530" alt="1" src="https://user-images.githubusercontent.com/15916367/91668314-1d5a3a80-eac9-11ea-8ba3-39ee086649ba.png">
+<img width="350" alt="1" src="https://user-images.githubusercontent.com/15916367/91668314-1d5a3a80-eac9-11ea-8ba3-39ee086649ba.png">
 
 ### About:
 - This is a collection of algorithms I have done for school assignments, online coding challenges/problems, and personal projects.
@@ -57,3 +57,10 @@
   - About: A fun implementation of Bogo Sort.
   - Requirements:
     - Python3
+
+## License Information:
+- Currently this repo using the **GNU General Public License v3.0** license. This might change in the future, but for now this is the license that will be used.
+- Learn More About Licenses:
+  1) [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+  2) [Choose An Open Source License](https://choosealicense.com/)
+  3) [How open source licenses work and how to add them to your projects](https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94/)
