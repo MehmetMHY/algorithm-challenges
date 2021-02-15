@@ -58,6 +58,8 @@
   - Requirements:
     - Python3
 
+---
+
 ## License Information:
 - Currently this repo using the **GNU General Public License v3.0** license. This might change in the future, but for now this is the license that will be used.
 - Learn More About Licenses:
