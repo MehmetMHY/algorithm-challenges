@@ -113,7 +113,7 @@ def main(y, z):
     for i in range(4):
         for c in range(14):
             time.sleep(0.5)
-1            p = give()
+            p = give()
             if(counter != 4):
                 os.system("clear")
                 show_deck(deck, p)
