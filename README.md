@@ -61,6 +61,13 @@ pip3 install notebook
   - Requirements:
     - Python3
 
+- <ins>Uniform Cost Search:</ins>
+  - About: Implementation of Uniform-Cost Search, please view: Uniform_Cost_search/README.md
+  - Requirements:
+    - Python3
+    - matplotlib
+    - networkx
+
 ---
 
 ## License Information:
