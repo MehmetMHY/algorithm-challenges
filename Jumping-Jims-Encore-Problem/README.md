@@ -2,7 +2,7 @@
 - By: Mehmet Yilmaz
 - Date: 6-18-2020
 
-<img width="970" alt="psj" src="https://user-images.githubusercontent.com/15916367/85229728-cb01ec80-b3a8-11ea-8005-2005f2f36188.png">
+<img width="970" alt="psj" src="./assets/jje.png">
 
 
 ## About:

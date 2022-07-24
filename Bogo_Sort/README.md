@@ -1,4 +1,4 @@
-![bogomeme](https://user-images.githubusercontent.com/15916367/77278015-d5b2c580-6c83-11ea-9570-7d55898f5a29.png)
+![bogomeme](./assets/meme.png)
 
 # About:
 Just a fun/meme Python3 project I did about Bogo Sort.

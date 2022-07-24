@@ -26,4 +26,4 @@
 - http://www.papg.com/show?1TMU
 
 ## Example of a 1x2 Dots & Boxes Game:
-![Untitled drawing](https://user-images.githubusercontent.com/15916367/102980085-3ea1c500-44c4-11eb-89af-1ca814058483.png)
+![Untitled drawing](./assets/game_example.png)

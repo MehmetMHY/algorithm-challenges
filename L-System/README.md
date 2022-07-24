@@ -1,5 +1,7 @@
 # Simple 2D L-System Python Implmentation
 
+<img width="500" alt="psj" src="./assets/images/L_tree.png">
+
 ## About:
 - I always wanted to implment an L-System, so I did.
 - To learn more about L-Systems, please check out the wikipedia link in the sources section.

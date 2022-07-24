@@ -1,13 +1,11 @@
 # Algorithm Challenges - Mehmet Yilmaz
 
-<img width="350" alt="1" src="https://user-images.githubusercontent.com/15916367/91668314-1d5a3a80-eac9-11ea-8ba3-39ee086649ba.png">
-
 ## About:
 - This is a collection of algorithms I have done for school assignments, online coding challenges/problems, and personal projects.
 - To see and/or use most of these algorithms, you we will need Jupyter Notebook:
-```
-pip3 install notebook
-```
+  ```
+  pip3 install notebook
+  ```
 
 ## Table of Context:
 - <ins>L System:</ins>
