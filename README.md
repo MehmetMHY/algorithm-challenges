@@ -11,13 +11,6 @@
 - <ins>C Programs:</ins>
   - About: Some scripts/projects I made using the C/C++ programming lanaguage
 
-- <ins>L System:</ins>
-  - About: A simple L-System generator. To learn more about L-Systems, you can refer to this source: [[wiki](https://en.wikipedia.org/wiki/L-system)]
-  - Requirements:
-    - Python3
-    - turtle
-    - tkinter
-
 - <ins>Jumping Jims Encore:</ins>
   - About: Its an interesting graph problem. To see all the details, please view: Jumping-Jims-Encore-Problem/README.md
   - Requirements:
