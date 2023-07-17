@@ -1,4 +1,7 @@
-# Algorithm Challenges - Mehmet Yilmaz
+<h1 align="center">Algorithm Challenges</h1>
+<p align="center">
+  <img width="250" src="./assets/thumbnail.png">
+</p>
 
 ## About:
 - This is a collection of algorithms I have done for school assignments, online coding challenges/problems, and personal projects.
@@ -9,7 +12,7 @@
 
 ## Table of Context:
 - <ins>C Programs:</ins>
-  - About: Some scripts/projects I made using the C/C++ programming lanaguage
+  - About: Some scripts/projects I made using the C/C++ programming language
 
 - <ins>Jumping Jims Encore:</ins>
   - About: Its an interesting graph problem. To see all the details, please view: Jumping-Jims-Encore-Problem/README.md
@@ -46,7 +49,7 @@
     - pandas
 
 - <ins>Basic Clock Solitaire:</ins>
-  - About: A clock solitaire solver done though the termnal console. To learn the more about clock solitaire, please check out this link: [[wiki](https://en.wikipedia.org/wiki/Clock_Patience)]
+  - About: A clock solitaire solver done though the terminal console. To learn the more about clock solitaire, please check out this link: [[wiki](https://en.wikipedia.org/wiki/Clock_Patience)]
   - Requirements:
     - Python3
 
