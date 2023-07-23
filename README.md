@@ -17,7 +17,7 @@
 <p align="left">
   <img width="75" src="./assets/c.png">
   <div>
-    <ins>C Programs</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/C-Programs"><ins>C Programs</ins></a>
     <div>Some scripts/projects I made using the C/C++ programming language</div>
   </div>
 </p>
@@ -27,7 +27,7 @@
 <p align="left">
   <img width="75" src="./assets/jje.png">
   <div>
-    <ins>Jumping Jims Encore</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Jumping-Jims-Encore-Problem"><ins>Jumping Jims Encore</ins></a>
     <div>My solution for an interesting graph problem. To see all the details, please view: Jumping-Jims-Encore-Problem/README.md</div>
   </div>
 </p>
@@ -37,7 +37,7 @@
 <p align="left">
   <img width="75" src="./assets/partition.png">
   <div>
-    <ins>Linear Partition 2 (LP2)</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Linear_Partition_2"><ins>Linear Partition 2 (LP2)</ins></a>
     <div>Both a recursive and dynamic programming solution to the following problem statement: Given a sequence S of n positive integers (s1, s2, …, sn) and an integer k, partition S into k ranges so as to maximizes the minimum sum over all ranges.</div>
   </div>
 </p>
@@ -47,7 +47,7 @@
 <p align="left">
   <img width="75" src="./assets/nn.png">
   <div>
-    <ins>Traveling Salesman Problem</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Traveling_Salesman_Problem"><ins>Traveling Salesman Problem</ins></a>
     <div>Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.</div>
   </div>
 </p>
@@ -57,7 +57,7 @@
 <p align="left">
   <img width="75" src="./assets/coder.png">
   <div>
-    <ins>Website Challenges/Problems</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Website-Challenges"><ins>Website Challenges/Problems</ins></a>
     <div>
       <p>Algorithms I implemented for HackerRank challenges, here is my account: <a href="https://www.hackerrank.com/mehmet_mhy">mehmet_mhy</a></p>
     </div>
@@ -69,7 +69,7 @@
 <p align="left">
   <img width="75" src="./assets/dot-box.png">
   <div>
-    <ins>Dots & Boxes Analysis</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Dots%2BBoxes"><ins>Dots & Boxes Analysis</ins></a>
     <div>Method/algorithms I created to try and analysis the game Dots & Boxes. Currently, only a 1x1 and 1x2 game has been analyzed. Read the README.md located in ./Dots_And_Boxes/ for more information.</div>
   </div>
 </p>
@@ -79,7 +79,7 @@
 <p align="left">
   <img width="75" src="./assets/clock_solitaire.jpg">
   <div>
-    <ins>Basic Clock Solitaire</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Basic_Clock_Solitaire"><ins>Basic Clock Solitaire</ins></a>
     <div>
       <p>A clock solitaire solver done though the terminal console. To learn the more about clock solitaire though this <a href="https://en.wikipedia.org/wiki/Clock_Patience">wiki</a>.</p>
     </div>
@@ -91,7 +91,7 @@
 <p align="left">
   <img width="75" src="./assets/bogo_sort.jpg">
   <div>
-    <ins>Bogo Sort Algorithm</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Bogo_Sort"><ins>Bogo Sort Algorithm</ins></a>
     <div>A fun implementation of Bogo Sort. One of, if not the worst, sorting algorithms ever invented.</div>
   </div>
 </p>
@@ -101,7 +101,7 @@
 <p align="left">
   <img width="75" src="./assets/ucs.png">
   <div>
-    <ins>Uniform Cost Search</ins>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Uniform_Cost_search"><ins>Uniform Cost Search</ins></a>
     <div>Implementation of Uniform-Cost Search, please view: Uniform_Cost_search/README.md</div>
   </div>
 </p>
