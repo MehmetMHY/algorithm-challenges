@@ -11,61 +11,102 @@
   ```
 
 ## Table of Context:
-- <ins>C Programs:</ins>
-  - About: Some scripts/projects I made using the C/C++ programming language
 
-- <ins>Jumping Jims Encore:</ins>
-  - About: Its an interesting graph problem. To see all the details, please view: Jumping-Jims-Encore-Problem/README.md
-  - Requirements:
-    - Python3
-    - matplotlib
-    - networkx
+<div style="height: 20px;"></div> <!-- spacer -->
+
+<p align="left">
+  <img width="75" src="./assets/c.png">
+  <div>
+    <ins>C Programs</ins>
+    <div>Some scripts/projects I made using the C/C++ programming language</div>
+  </div>
+</p>
+
+<div style="height: 20px;"></div> <!-- spacer -->
+
+<p align="left">
+  <img width="75" src="./assets/jje.png">
+  <div>
+    <ins>Jumping Jims Encore</ins>
+    <div>My solution for an interesting graph problem. To see all the details, please view: Jumping-Jims-Encore-Problem/README.md</div>
+  </div>
+</p>
+
+<div style="height: 20px;"></div> <!-- spacer -->
   
-- <ins>Linear Partition 2 (LP2):</ins>
-  - About: Both a recursive and dynamic programming solution to the following problem statement:  
-    * Given a sequence S of n positive integers (s1, s2, …, sn) and an integer k, partition S into k ranges so as to maximizes the minimum sum over all ranges.
-  - Requirements:
-    - Python3
-    - numpy
+<p align="left">
+  <img width="75" src="./assets/partition.png">
+  <div>
+    <ins>Linear Partition 2 (LP2)</ins>
+    <div>Both a recursive and dynamic programming solution to the following problem statement: Given a sequence S of n positive integers (s1, s2, …, sn) and an integer k, partition S into k ranges so as to maximizes the minimum sum over all ranges.</div>
+  </div>
+</p>
 
-- <ins>Traveling Salesman Problem:</ins>
-  - About: Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.
-  - Requirements:
-    - Python3
+<div style="height: 20px;"></div> <!-- spacer -->
 
-- <ins>Website Challenges/Problems:</ins>
-  - About: Algorithms I implemented for HackerRank challenges
-  - HackerRank Account: [[Hackerrank Account Link](https://www.hackerrank.com/mehmet_mhy)]
-  - Requirements:
-    - Python3
-    - jupyter notebook
+<p align="left">
+  <img width="75" src="./assets/nn.png">
+  <div>
+    <ins>Traveling Salesman Problem</ins>
+    <div>Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.</div>
+  </div>
+</p>
 
-- <ins>Dots & Boxes Analysis:</ins>
-  - About: Method/algorithms I created to try and analysis the game Dots & Boxes. Currently, only a 1x1 and 1x2 game has been analysed. Read the README.md located in ./Dots_And_Boxes/ for more information.
-  - Requirements:
-    - Python3
-    - jupyter notebook
-    - numpy
-    - pandas
+<div style="height: 20px;"></div> <!-- spacer -->
 
-- <ins>Basic Clock Solitaire:</ins>
-  - About: A clock solitaire solver done though the terminal console. To learn the more about clock solitaire, please check out this link: [[wiki](https://en.wikipedia.org/wiki/Clock_Patience)]
-  - Requirements:
-    - Python3
+<p align="left">
+  <img width="75" src="./assets/coder.png">
+  <div>
+    <ins>Website Challenges/Problems</ins>
+    <div>
+      <p>Algorithms I implemented for HackerRank challenges, here is my account: <a href="https://www.hackerrank.com/mehmet_mhy">mehmet_mhy</a></p>
+    </div>
+  </div>
+</p>
 
-- <ins>Bogo Sort Algorithm:</ins>
-  - About: A fun implementation of Bogo Sort.
-  - Requirements:
-    - Python3
+<div style="height: 20px;"></div> <!-- spacer -->
 
-- <ins>Uniform Cost Search:</ins>
-  - About: Implementation of Uniform-Cost Search, please view: Uniform_Cost_search/README.md
-  - Requirements:
-    - Python3
-    - matplotlib
-    - networkx
+<p align="left">
+  <img width="75" src="./assets/dot-box.png">
+  <div>
+    <ins>Dots & Boxes Analysis</ins>
+    <div>Method/algorithms I created to try and analysis the game Dots & Boxes. Currently, only a 1x1 and 1x2 game has been analyzed. Read the README.md located in ./Dots_And_Boxes/ for more information.</div>
+  </div>
+</p>
 
----
+<div style="height: 20px;"></div> <!-- spacer -->
+
+<p align="left">
+  <img width="75" src="./assets/clock_solitaire.jpg">
+  <div>
+    <ins>Basic Clock Solitaire</ins>
+    <div>
+      <p>A clock solitaire solver done though the terminal console. To learn the more about clock solitaire though this <a href="https://en.wikipedia.org/wiki/Clock_Patience">wiki</a>.</p>
+    </div>
+  </div>
+</p>
+
+<div style="height: 20px;"></div> <!-- spacer -->
+
+<p align="left">
+  <img width="75" src="./assets/bogo_sort.jpg">
+  <div>
+    <ins>Bogo Sort Algorithm</ins>
+    <div>A fun implementation of Bogo Sort. One of, if not the worst, sorting algorithms ever invented.</div>
+  </div>
+</p>
+
+<div style="height: 20px;"></div> <!-- spacer -->
+
+<p align="left">
+  <img width="75" src="./assets/ucs.png">
+  <div>
+    <ins>Uniform Cost Search</ins>
+    <div>Implementation of Uniform-Cost Search, please view: Uniform_Cost_search/README.md</div>
+  </div>
+</p>
+
+<div style="height: 20px;"></div> <!-- spacer -->
 
 ## License Information:
 - Currently this repo using the **GNU General Public License v3.0** license. This might change in the future, but for now this is the license that will be used.
