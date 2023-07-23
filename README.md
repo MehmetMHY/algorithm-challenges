@@ -4,7 +4,7 @@
 </p>
 
 ## About:
-- This is a collection of algorithms I have done for school assignments, online coding challenges/problems, and personal projects.
+- An assortment of academic, competitive, and/or hobbyist algorithms I've implemented over the years.
 - To see and/or use most of these algorithms, you we will need Jupyter Notebook:
   ```
   pip3 install notebook
