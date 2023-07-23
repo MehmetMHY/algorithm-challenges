@@ -12,7 +12,7 @@
 
 ## Table of Context:
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/c.png">
@@ -22,7 +22,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/jje.png">
@@ -32,7 +32,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
   
 <p align="left">
   <img width="75" src="./assets/partition.png">
@@ -42,7 +42,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/nn.png">
@@ -52,7 +52,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/coder.png">
@@ -64,7 +64,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/dot-box.png">
@@ -74,7 +74,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/clock_solitaire.jpg">
@@ -86,7 +86,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/bogo_sort.jpg">
@@ -96,7 +96,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
   <img width="75" src="./assets/ucs.png">
@@ -106,7 +106,7 @@
   </div>
 </p>
 
-<div style="height: 20px;"></div> <!-- spacer -->
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 ## License Information:
 - Currently this repo using the **GNU General Public License v3.0** license. This might change in the future, but for now this is the license that will be used.
