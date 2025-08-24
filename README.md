@@ -1,16 +1,18 @@
 <h1 align="center">Algorithm Challenges</h1>
+
 <p align="center">
   <img width="250" src="./assets/thumbnail.png">
 </p>
 
-## About:
-- An assortment of academic, competitive, and/or hobbyist algorithms I've implemented over the years.
-- To see and/or use most of these algorithms, you we will need Jupyter Notebook:
-  ```
-  pip3 install notebook
-  ```
+## About
 
-## Table of Context:
+An assortment of academic, competitive, and/or hobbyist algorithms I've implemented over the years. To see and/or use most of these algorithms, you we will need Jupyter Notebook:
+
+```bash
+pip3 install notebook
+```
+
+## Table of Context
 
 &nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
@@ -25,6 +27,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
+  <img width="75" src="./assets/csci.png">
+  <div>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/CSCI-Course-Projects"><ins>CSCI Course Projects</ins></a>
+    <div>Some of my early coursework from Colorado School of Mines computer science classes</div>
+  </div>
+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
+
+<p align="left">
   <img width="75" src="./assets/jje.png">
   <div>
     <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Jumping-Jims-Encore-Problem"><ins>Jumping Jims Encore</ins></a>
@@ -33,7 +45,7 @@
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
-  
+
 <p align="left">
   <img width="75" src="./assets/partition.png">
   <div>
@@ -108,9 +120,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
-## License Information:
-- Currently this repo using the **GNU General Public License v3.0** license. This might change in the future, but for now this is the license that will be used.
-- Learn More About Licenses:
-  1) [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
-  2) [Choose An Open Source License](https://choosealicense.com/)
-  3) [How open source licenses work and how to add them to your projects](https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94/)
+## License Information
+
+Currently this repo using the **GNU General Public License v3.0** license. This might change in the future, but for now this is the license that will be used. Learn more about licenses with these sources: [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/), [Choose An Open Source License](https://choosealicense.com/), & [How open source licenses work and how to add them to your projects](https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94/)

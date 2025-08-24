@@ -1,0 +1,65 @@
+commit 4f73fd9fffdaee18ae0cc2a31e979d384021b5f1
+Author: MehmetMHY <mehmet.mhy@gmail.com>
+Date:   Wed Sep 11 22:07:07 2019 -0600
+
+    This is the completed verison of the assignment's code
+
+commit e48c6803180b72f982aa5297f8cf2c3d3adfd14a
+Author: MehmetMHY <mehmet.mhy@gmail.com>
+Date:   Wed Sep 11 01:06:21 2019 -0600
+
+    Changed the README status to DONE
+
+commit c5c6be7ba75053e524c2003ab8874a06235642c4
+Author: Cody Ullestad <cullestad@mines.edu>
+Date:   Wed Sep 11 00:49:44 2019 -0600
+
+    Working Code, correct output
+
+commit 0379f2042201ed20c88c71382294283f976111ee
+Author: Cody Ullestad <cullestad@mines.edu>
+Date:   Tue Sep 10 22:51:08 2019 -0600
+
+    Redoing some stuff
+
+commit 8618c787fd2005e0c4a24dc037b330962fa81b32
+Author: Cody Ullestad <cullestad@mines.edu>
+Date:   Tue Sep 10 22:22:11 2019 -0600
+
+    Rev. 2
+
+commit 6de47759ec2ab0ddb2eba2b1eb4738d2942ef2fb
+Author: Cody Ullestad <cullestad@mines.edu>
+Date:   Tue Sep 10 20:27:58 2019 -0600
+
+    More Stuff
+
+commit 7ab38936a47fc251f49cd7381c3cf881dc18190f
+Author: Cody Ullestad <cullestad@mines.edu>
+Date:   Tue Sep 10 20:25:41 2019 -0600
+
+    Still doing this stuff
+
+commit bebfd8c9f8596ca8a6a30a8ae79ac2ce9a0fadf1
+Author: Mehmet <mehmet.mhy@gmail.com>
+Date:   Mon Sep 9 18:01:58 2019 -0600
+
+    Update README.md
+
+commit d60485f7d13fac61fb45d8c75b98ef5968116a49
+Author: MehmetMHY <mehmet.mhy@gmail.com>
+Date:   Mon Sep 9 13:48:34 2019 -0600
+
+    Added the developers names in the README
+
+commit e6ff442e248a6d05f29a0e0108998f68dadec468
+Author: MehmetMHY <mehmet.mhy@gmail.com>
+Date:   Mon Sep 9 13:45:46 2019 -0600
+
+    Added a .gitignore file
+
+commit 9ebf6a85af3856734b556965a79f83472618f32e
+Author: MehmetMHY <mehmet.mhy@gmail.com>
+Date:   Mon Sep 9 13:28:58 2019 -0600
+
+    First commit
