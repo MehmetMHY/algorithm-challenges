@@ -255,3 +255,10 @@ dmypy.json
 C-Programs/reverse
 C-Programs/tree
 
+# Web Works specific files:
+Web_Works/node_modules/
+Web_Works/*/node_modules/
+Web_Works/**/*.log
+Web_Works/**/dist/
+Web_Works/**/build/
+
