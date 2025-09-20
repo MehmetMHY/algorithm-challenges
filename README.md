@@ -69,7 +69,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/coder.png">
   <div>
-    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Website-Challenges"><ins>Website Challenges/Problems</ins></a>
+    <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Coding-Challenges"><ins>Coding Challenges/Problems</ins></a>
     <div>
       <p>Algorithms I implemented for HackerRank challenges, here is my account: <a href="https://www.hackerrank.com/mehmet_mhy">mehmet_mhy</a></p>
     </div>
@@ -121,7 +121,7 @@ pip3 install notebook
 &nbsp;&nbsp;&nbsp;&nbsp; <!-- spacer -->
 
 <p align="left">
-  <img width="75" src="./Web_Works/icon.png">
+  <img width="75" src="./assets/web_works_icon.png">
   <div>
     <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/Web_Works"><ins>Web Works</ins></a>
     <div>Notes and mini projects that revolve around Web-Development, including Sequelize examples and authentication implementations.</div>

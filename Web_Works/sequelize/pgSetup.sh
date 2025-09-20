@@ -1,4 +1,4 @@
-cat << 'EOF'
+cat <<'EOF'
 CREATE OR EXECUTE INTO LOCAL POSTGRES INSTANCE USING DOCKER
 
 DATABASE INFORMATION
@@ -45,13 +45,12 @@ EOF
 
 # create pg instance if one does not exist
 if [ $(docker container list | grep "pgDB" | wc -l) -eq 0 ]; then
-  echo "Creating new Postgres Docker Container..."
-  docker run --name "pgDB-$(date +%s)" -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres
-  echo "Created container, waiting 5 seconds before psql into it..."
-  sleep 5
-  echo
+	echo "Creating new Postgres Docker Container..."
+	docker run --name "pgDB-$(date +%s)" -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres
+	echo "Created container, waiting 5 seconds before psql into it..."
+	sleep 5
+	echo
 fi
 
 # psql into pg instance
 docker exec -it $(docker container list | awk '{print $1}' | grep -v "CONTAINER") psql -U postgres
-

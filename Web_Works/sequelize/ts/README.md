@@ -7,9 +7,9 @@
 ## Sources
 
 - TypeScript:
-    - https://www.youtube.com/watch?v=H91aqUHn8sE
-    - https://fireship.io/lessons/typescript-nodejs-setup/
+  - https://www.youtube.com/watch?v=H91aqUHn8sE
+  - https://fireship.io/lessons/typescript-nodejs-setup/
 - Sequelize:
-    - https://sequelize.org/docs/v6/
+  - https://sequelize.org/docs/v6/
 - Tools:
-    - https://chat.openai.com/
+  - https://chat.openai.com/

@@ -8,5 +8,3 @@ fi
 echo "The password is... password"
 
 docker exec -it $(docker container list | awk '{print $1}' | grep -v "CONTAINER") psql -U postgres
-
-
