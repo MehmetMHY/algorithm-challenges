@@ -69,7 +69,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/coder.png">
   <div>
-    <a href="./coding-challenges/README.md"><ins>Coding Challenges/Problems</ins></a>
+    <a href="./hackerrank-challenges/README.md"><ins>HackerRank Challenges</ins></a>
     <div>
       <p>Algorithms I implemented for HackerRank challenges, here is my account: <a href="https://www.hackerrank.com/mehmet_mhy">mehmet_mhy</a></p>
     </div>
