@@ -19,7 +19,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/c.png">
   <div>
-    <a href="./c-programs"><ins>C Programs</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/c-programs">GitHub</a></small>
+    <a href="./c-programs/README.md"><ins>C Programs</ins></a>
     <div>Some scripts/projects I made using the C/C++ programming language</div>
   </div>
 </p>
@@ -29,7 +29,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/csci.png">
   <div>
-    <a href="./csci-course-projects"><ins>CSCI Course Projects</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/csci-course-projects">GitHub</a></small>
+    <a href="./csci-course-projects/README.md"><ins>CSCI Course Projects</ins></a>
     <div>Some of my early coursework from Colorado School of Mines computer science classes</div>
   </div>
 </p>
@@ -39,7 +39,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/jje.png">
   <div>
-    <a href="./jumping-jims-encore-problem"><ins>Jumping Jims Encore</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/jumping-jims-encore-problem">GitHub</a></small>
+    <a href="./jumping-jims-encore-problem/README.md"><ins>Jumping Jims Encore</ins></a>
     <div>My solution for an interesting graph problem. To see all the details, please view: jumping-jims-encore-problem/README.md</div>
   </div>
 </p>
@@ -49,7 +49,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/partition.png">
   <div>
-    <a href="./linear_partition_2"><ins>Linear Partition 2 (LP2)</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/linear_partition_2">GitHub</a></small>
+    <a href="./linear_partition_2/README.md"><ins>Linear Partition 2 (LP2)</ins></a>
     <div>Both a recursive and dynamic programming solution to the following problem statement: Given a sequence S of n positive integers (s1, s2, …, sn) and an integer k, partition S into k ranges so as to maximizes the minimum sum over all ranges.</div>
   </div>
 </p>
@@ -59,7 +59,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/nn.png">
   <div>
-    <a href="./traveling_salesman_problem"><ins>Traveling Salesman Problem</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/traveling_salesman_problem">GitHub</a></small>
+    <a href="./traveling_salesman_problem/README.md"><ins>Traveling Salesman Problem</ins></a>
     <div>Implementations of the Nearest Neighbor and Optimal_TSP (brute force permutations) algorithms for the traveling salesman problem.</div>
   </div>
 </p>
@@ -69,7 +69,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/coder.png">
   <div>
-    <a href="./coding-challenges"><ins>Coding Challenges/Problems</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/coding-challenges">GitHub</a></small>
+    <a href="./coding-challenges/README.md"><ins>Coding Challenges/Problems</ins></a>
     <div>
       <p>Algorithms I implemented for HackerRank challenges, here is my account: <a href="https://www.hackerrank.com/mehmet_mhy">mehmet_mhy</a></p>
     </div>
@@ -81,7 +81,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/dot-box.png">
   <div>
-    <a href="./dots+boxes"><ins>Dots & Boxes Analysis</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/dots%2Bboxes">GitHub</a></small>
+    <a href="./dots+boxes/README.md"><ins>Dots & Boxes Analysis</ins></a>
     <div>Method/algorithms I created to try and analysis the game Dots & Boxes. Currently, only a 1x1 and 1x2 game has been analyzed. Read the README.md located in ./dots+boxes/ for more information.</div>
   </div>
 </p>
@@ -91,7 +91,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/clock_solitaire.jpg">
   <div>
-    <a href="./basic_clock_solitaire"><ins>Basic Clock Solitaire</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/basic_clock_solitaire">GitHub</a></small>
+    <a href="./basic_clock_solitaire/README.md"><ins>Basic Clock Solitaire</ins></a>
     <div>
       <p>A clock solitaire solver done though the terminal console. To learn the more about clock solitaire though this <a href="https://en.wikipedia.org/wiki/Clock_Patience">wiki</a>.</p>
     </div>
@@ -103,7 +103,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/bogo_sort.jpg">
   <div>
-    <a href="./bogo_sort"><ins>Bogo Sort Algorithm</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/bogo_sort">GitHub</a></small>
+    <a href="./bogo_sort/README.md"><ins>Bogo Sort Algorithm</ins></a>
     <div>A fun implementation of Bogo Sort. One of, if not the worst, sorting algorithms ever invented.</div>
   </div>
 </p>
@@ -113,7 +113,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/ucs.png">
   <div>
-    <a href="./uniform_cost_search"><ins>Uniform Cost Search</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/uniform_cost_search">GitHub</a></small>
+    <a href="./uniform_cost_search/README.md"><ins>Uniform Cost Search</ins></a>
     <div>Implementation of Uniform-Cost Search, please view: uniform_cost_search/README.md</div>
   </div>
 </p>
@@ -123,7 +123,7 @@ pip3 install notebook
 <p align="left">
   <img width="75" src="./assets/web_works_icon.png">
   <div>
-    <a href="./web_works"><ins>Web Works</ins></a> <small><b>-</b> <a href="https://github.com/MehmetMHY/algorithm-challenges/tree/master/web_works">GitHub</a></small>
+    <a href="./web_works/README.md"><ins>Web Works</ins></a>
     <div>Notes and mini projects that revolve around Web-Development, including Sequelize examples and authentication implementations.</div>
   </div>
 </p>
